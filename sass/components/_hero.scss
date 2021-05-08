@@ -10,7 +10,7 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .hero {
-      background-image: url('../images/hero-bg@2x.jpg');
+      background-image: url("../images/hero-bg@2x.jpg");
     }
   }
 
@@ -19,7 +19,7 @@
   background-size: cover;
   background-position: center;
   text-align: center;
-  padding: 200px 0;
+  padding: 118px 0;
 }
 
 .hero_title {
@@ -64,5 +64,3 @@
     background: $btn-hover-color;
   }
 }
-
-
